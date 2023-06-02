@@ -68,6 +68,11 @@ header > img {
   
 }
 
+.button-container > li:hover {
+  color: #ffa66b;
+  cursor: pointer;
+}
+
 
 #content {
   display: grid;
@@ -131,6 +136,7 @@ header > img {
   gap: 16px;
 }
 
+
 .home-text {
   margin: 0 10%;
   border-radius: 16px;
@@ -156,7 +162,7 @@ header > img {
 
   font-family: 'tf2build';
   font-size: 32px;
-  color: #d2cdc8;
+  color: #ffce07;
   background-color: #24201b;
   text-align: center;
 }
@@ -173,3 +179,29 @@ header > img {
   color: #d2cdc8;
 }
 
+.contact-section {
+  display: grid;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact-text-box {
+  margin-top: 64px;
+  border-radius: 16px;
+  border: solid 1px black;
+  padding: 32px 48px;
+  display: inline-block;
+  background-color: #24201b;
+}
+
+.contact-header-text {
+  font-family: "tf2build";
+  font-size: 24px;
+  color: #ffce07;
+}
+
+.contact-sub-text {
+  font-family: "tf2seco";
+  font-size: 20px;
+  color: #ebe1bc;
+}
