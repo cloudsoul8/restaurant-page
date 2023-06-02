@@ -18,7 +18,7 @@ function loadContact() {
 
     const creditTextBox = createDiv("contact-text-box")
     const creditText = createDiv("contact-sub-text")
-    creditText.innerText = "Images displayed are gathered from TF2 Wiki and Steam Community."
+    creditText.innerText = "Images and details displayed are from TF2 Wiki and Steam Community."
     creditTextBox.style.marginTop = "8px"
 
     contactTextBox.appendChild(emailHeader)

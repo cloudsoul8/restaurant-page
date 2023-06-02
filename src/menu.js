@@ -25,13 +25,13 @@ function loadMenu() {
         menuSection.appendChild(item);
     }
 
-    addMenuItem("imgs/sandvich.png", "Sandvich", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/steak.png", "Buffalo Steak Sandvich", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/choco.png", "Dalokohs Bar", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/banana.png", "Second Banana", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/milk.png", "Mad Milk", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/cac.png", "Crit-a-Cola", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/bonk.png", "Bonk! Atomic Punch", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
+    addMenuItem("imgs/sandvich.png", "Sandvich", "Eat to regain up to 300 health.");
+    addMenuItem("imgs/steak.png", "Buffalo Steak Sandvich", "After consuming, move speed is increased, attacks mini-crit, and the player may only use melee weapons. Lasts 16 seconds.");
+    addMenuItem("imgs/choco.png", "Dalokohs Bar", "Adds +50 max health for 30 seconds. Eat to gain up to 100 health.");
+    addMenuItem("imgs/banana.png", "Second Banana", "+50% increase in charge recharge rate. -33% healing effect. Eat to gain health");
+    addMenuItem("imgs/milk.png", "Mad Milk", "Players heal 60% of the damage done to an enemy covered with milk. Can be used to extinguish fires.");
+    addMenuItem("imgs/cac.png", "Crit-a-Cola", "While effect is active: each attack mini-crits and sets Mark-For-Death for 8 seconds.");
+    addMenuItem("imgs/bonk.png", "Bonk! Atomic Punch", "Drink to become invulnerable for 8 seconds. Cannot attack during this time. Damage absorbed will slow you when the effect ends.");
     addMenuItem("imgs/piss.png", "??????", "?????????????????");
 
     tabContainer.appendChild(menuSection);

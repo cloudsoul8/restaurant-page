@@ -43,4 +43,20 @@ function loadHeader() {
     loadHome()
 }
 
+function loadFooter() {
+    const footer = document.createElement("footer");
+    const link = document.createElement("a")
+    link.innerText = "cloudsoul"
+    link.href = "https://github.com/cloudsoul8/"
+
+    const img = document.createElement("img")
+    img.src = "imgs/github.png"
+
+    footer.appendChild(img)
+    footer.appendChild(link)
+    document.body.appendChild(footer)
+}
+
+
 loadHeader()
+loadFooter()
