@@ -16,15 +16,21 @@
 
 body {
   margin: 0;
-  padding: 48px;
-  background-color: gray;
+  margin: 0;
+  background-image: url(../imgs/dustbowl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+/* .bg {
+
+} */
 
 header {
   display: flex;
   align-items: end;
   justify-content: right;
-  margin-top: -116px;
+  margin-top: -54px;
 }
 
 header > img {
@@ -76,7 +82,7 @@ header > img {
 
 #content {
   display: grid;
-  grid-template-columns: 1fr;;
+  grid-template-columns: 1fr;
   justify-items:  center;
   
 }
@@ -86,6 +92,7 @@ header > img {
   padding: 64px;
   background-color: #d2cdc8;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-bottom: 96px;
 }
 
 .menu-section {
@@ -117,9 +124,10 @@ header > img {
 }
 
 .item-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: 'tf2build';
   color: #ffce07;
+  padding-bottom: 8px;
 
 }
 
@@ -128,6 +136,7 @@ header > img {
   font-family: 'tf2seco';
   color: #ebe1bc;
   overflow-wrap: break-word;
+  line-height: 22px;
 }
 
 .home-section {
@@ -157,7 +166,7 @@ header > img {
   margin: 0 10%;
   border-radius: 16px;
   border: solid 1px black;
-  padding: 16px;
+  padding: 24px 16px;
   display: inline-block;
 
   font-family: 'tf2build';
@@ -198,10 +207,37 @@ header > img {
   font-family: "tf2build";
   font-size: 24px;
   color: #ffce07;
+  padding-bottom: 8px;
 }
 
 .contact-sub-text {
   font-family: "tf2seco";
   font-size: 20px;
   color: #ebe1bc;
+}
+
+footer {
+  background-color: #b25216;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+
+  position: fixed;
+  bottom: 0;
+
+}
+
+footer > a {
+  font-family: "tf2seco";
+  font-size: 20px;
+  color: #ebe1bc;
+  text-decoration: none;
+  
+}
+
+footer > img {
+  height: 20px;
+  padding-right: 10px;
 }
