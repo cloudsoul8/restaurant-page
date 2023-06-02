@@ -1,5 +1,6 @@
 import { loadHome } from './home.js';
 import { loadMenu } from './menu.js';
+import { loadContact } from './contact.js';
 
 function loadHeader() {
     console.log("index.js init");
@@ -30,7 +31,7 @@ function loadHeader() {
     buttonContainer.classList.add("button-container")
     buttonContainer.appendChild(createListBtn("Home", loadHome))
     buttonContainer.appendChild(createListBtn("Menu", loadMenu))
-    buttonContainer.appendChild(createListBtn("Contact"))
+    buttonContainer.appendChild(createListBtn("Contact", loadContact))
 
     headerNav.appendChild(buttonContainer);
     header.appendChild(headerNav);

@@ -7,6 +7,7 @@ function loadHome() {
     tabContainer.innerHTML = "";
 
     const homeSection = createDiv("home-section");
+    //homeSection.style.backgroundColor = "#FFFFFF"
     const homeText = createDiv("home-text");
     homeText.innerText = "Have a taste of mercenary-approved delicacies, all in one shop!";
     
@@ -24,6 +25,8 @@ function loadHome() {
     homeSection.appendChild(homeText);
     homeSection.appendChild(locationText);
     tabContainer.appendChild(homeSection);
+
+    homeSection.animate({opacity:[0,1]}, {duration:300, fill:"forwards"})
 }
 
 export { loadHome };

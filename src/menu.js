@@ -32,9 +32,10 @@ function loadMenu() {
     addMenuItem("imgs/milk.png", "Mad Milk", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
     addMenuItem("imgs/cac.png", "Crit-a-Cola", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
     addMenuItem("imgs/bonk.png", "Bonk! Atomic Punch", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra lectus tortor, a porta mauris porta non. Aliquam vel tempor magna. Praesent in finibus orci");
-    addMenuItem("imgs/piss.png", "??????", "????????????????????????????????????????????????????????????");
+    addMenuItem("imgs/piss.png", "??????", "?????????????????");
 
     tabContainer.appendChild(menuSection);
+    menuSection.animate({opacity:[0,1]}, {duration:300, fill:"forwards"})
 }
 
 export { loadMenu };
